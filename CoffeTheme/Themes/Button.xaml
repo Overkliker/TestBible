@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Brush x:Key="button">#a67b5b</Brush>
+    <FontFamily x:Key="fontbtn">Alkalami</FontFamily>
+    <Brush x:Key="txtbtn">white</Brush>
+</ResourceDictionary>

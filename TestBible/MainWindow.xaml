@@ -1,0 +1,33 @@
+﻿<Window x:Class="TestBible.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestBible"
+        xmlns:coff="clr-namespace:CoffeTheme;assembly=CoffeTheme"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="{DynamicResource back}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="FrameTbx" Height="100"/>
+        <TextBox x:Name="ChaneTbx" Height="100" Grid.Column="1"/>
+        <TextBox x:Name="DiamTbx" Height="100" Grid.Column="2"/>
+        <TextBox x:Name="WheelTbx" Height="100" Grid.Column="3"/>
+        <Label VerticalAlignment="Top" Content="Frame" Height="100"/>
+        <Label VerticalAlignment="Top" Grid.Column="1" Content="Chane" Height="100"/>
+        <Label VerticalAlignment="Top" Grid.Column="2" Content="Diam" Height="100"/>
+        <Label VerticalAlignment="Top" Grid.Column="3" Content="Wheel" Height="100"/>
+
+
+        <Button x:Name="SesBtn" Click="SesBtn_Click" Height="70" VerticalAlignment="Bottom" Content="Desirealize"
+                Background="{DynamicResource button}" Foreground="{DynamicResource txtbtn}"
+                FontFamily="{DynamicResource fontbtn}" FontSize="30"/>
+        <Button x:Name="SerBtn" Click="SerBtn_Click" Height="70" Grid.Column="3" VerticalAlignment="Bottom" Content="Serialize"/>
+
+    </Grid>
+</Window>
