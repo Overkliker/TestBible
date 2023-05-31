@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="fram_loc">Frame</v:String>
+    <v:String x:Key="chain_loc">Chain</v:String>
+    <v:String x:Key="wheel_loc">Wheel</v:String>
+    <v:String x:Key="diam_loc">Diametr</v:String>
+    <v:String x:Key="ser_loc">Serialezate</v:String>
+    <v:String x:Key="des_loc">Deserialezate</v:String>
+</ResourceDictionary>

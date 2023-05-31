@@ -14,20 +14,25 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="FrameTbx" Height="100"/>
-        <TextBox x:Name="ChaneTbx" Height="100" Grid.Column="1"/>
-        <TextBox x:Name="DiamTbx" Height="100" Grid.Column="2"/>
-        <TextBox x:Name="WheelTbx" Height="100" Grid.Column="3"/>
-        <Label VerticalAlignment="Top" Content="Frame" Height="100"/>
-        <Label VerticalAlignment="Top" Grid.Column="1" Content="Chane" Height="100"/>
-        <Label VerticalAlignment="Top" Grid.Column="2" Content="Diam" Height="100"/>
-        <Label VerticalAlignment="Top" Grid.Column="3" Content="Wheel" Height="100"/>
+        <TextBox Background="{DynamicResource tbxback}" x:Name="FrameTbx" Height="100"/>
+        <TextBox  Background="{DynamicResource tbxback}" x:Name="ChaneTbx" Height="100" Grid.Column="1"/>
+        <TextBox  Background="{DynamicResource tbxback}" x:Name="DiamTbx" Height="100" Grid.Column="2"/>
+        <TextBox  Background="{DynamicResource tbxback}" x:Name="WheelTbx" Height="100" Grid.Column="3"/>
+        <Label Background="{DynamicResource lbback}" VerticalAlignment="Top" Content="{DynamicResource fram_loc}" Height="100"/>
+        <Label Background="{DynamicResource lbback}" VerticalAlignment="Top" Grid.Column="1" Content="{DynamicResource chain_loc}" Height="100"/>
+        <Label Background="{DynamicResource lbback}" VerticalAlignment="Top" Grid.Column="2" Content="{DynamicResource diam_loc}" Height="100"/>
+        <Label Background="{DynamicResource lbback}" VerticalAlignment="Top" Grid.Column="3" Content="{DynamicResource wheel_loc}" Height="100"/>
 
 
-        <Button x:Name="SesBtn" Click="SesBtn_Click" Height="70" VerticalAlignment="Bottom" Content="Desirealize"
+        <Button x:Name="SesBtn" Click="SesBtn_Click" Height="70" VerticalAlignment="Bottom" Content="{DynamicResource des_loc}"
                 Background="{DynamicResource button}" Foreground="{DynamicResource txtbtn}"
-                FontFamily="{DynamicResource fontbtn}" FontSize="30"/>
-        <Button x:Name="SerBtn" Click="SerBtn_Click" Height="70" Grid.Column="3" VerticalAlignment="Bottom" Content="Serialize"/>
+                FontFamily="{DynamicResource fontbtn}" FontSize="25"/>
+        <Button x:Name="SerBtn" Click="SerBtn_Click" Height="70" Grid.Column="3" VerticalAlignment="Bottom" Content="{DynamicResource ser_loc}"
+                Background="{DynamicResource button}" Foreground="{DynamicResource txtbtn}"
+                FontFamily="{DynamicResource fontbtn}" FontSize="25"/>
+
+        <CheckBox Grid.Column="1" VerticalAlignment="Bottom" Background="{DynamicResource cbxback}" 
+                  Content="Set Locale" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
 
     </Grid>
 </Window>

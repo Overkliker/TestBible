@@ -57,5 +57,15 @@ namespace TestBible
 
             }
         }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            App.Locale = "En-loc";
+        }
+
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            App.Locale = "Ru-loc";
+        }
     }
 }

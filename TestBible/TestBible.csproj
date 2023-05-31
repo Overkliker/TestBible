@@ -8,8 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CoffeTheme\CoffeTheme.csproj" />
     <ProjectReference Include="..\DesBible\DesBible.csproj" />
+    <ProjectReference Include="..\SetLoc\SetLoc.csproj" />
   </ItemGroup>
 
 </Project>

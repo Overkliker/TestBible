@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesBible", "DesBible\DesBib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeTheme", "CoffeTheme\CoffeTheme.csproj", "{EA052A4A-3867-4CE9-B4C7-C6CE5DCAADD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetLoc", "SetLoc\SetLoc.csproj", "{8F360AE0-7290-4B35-A7DF-4E17911F45BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EA052A4A-3867-4CE9-B4C7-C6CE5DCAADD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA052A4A-3867-4CE9-B4C7-C6CE5DCAADD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA052A4A-3867-4CE9-B4C7-C6CE5DCAADD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F360AE0-7290-4B35-A7DF-4E17911F45BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F360AE0-7290-4B35-A7DF-4E17911F45BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F360AE0-7290-4B35-A7DF-4E17911F45BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F360AE0-7290-4B35-A7DF-4E17911F45BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
